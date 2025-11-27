@@ -9,13 +9,6 @@ interface ProfileModalProps {
   setAvatarSrc: React.Dispatch<React.SetStateAction<string>>;
 }
 
-interface ProfileState {
-  avatarSrc: string;
-  fullName: string;
-  nickName: string;
-  gender: string;
-  mobile: string;
-}
 
 const defaultAvatar = "/defaultcharacter.png";
 
